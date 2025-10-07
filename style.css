@@ -13,4 +13,13 @@
 
 body {
   font-family: "Red Hat Display";
+  background: var(--slate-300);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
 }
